@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-SemiBoldItalic.eot');
+    src: url('Gibson-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-SemiBoldItalic.woff2') format('woff2'),
+        url('Gibson-SemiBoldItalic.woff') format('woff'),
+        url('Gibson-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Light.eot');
+    src: url('Gibson-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Light.woff2') format('woff2'),
+        url('Gibson-Light.woff') format('woff'),
+        url('Gibson-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-BoldItalic.eot');
+    src: url('Gibson-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-BoldItalic.woff2') format('woff2'),
+        url('Gibson-BoldItalic.woff') format('woff'),
+        url('Gibson-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-LightItalic.eot');
+    src: url('Gibson-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-LightItalic.woff2') format('woff2'),
+        url('Gibson-LightItalic.woff') format('woff'),
+        url('Gibson-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Bold.eot');
+    src: url('Gibson-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Bold.woff2') format('woff2'),
+        url('Gibson-Bold.woff') format('woff'),
+        url('Gibson-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Italic.eot');
+    src: url('Gibson-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Italic.woff2') format('woff2'),
+        url('Gibson-Italic.woff') format('woff'),
+        url('Gibson-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Regular.eot');
+    src: url('Gibson-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Regular.woff2') format('woff2'),
+        url('Gibson-Regular.woff') format('woff'),
+        url('Gibson-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-BookItalic.eot');
+    src: url('Gibson-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-BookItalic.woff2') format('woff2'),
+        url('Gibson-BookItalic.woff') format('woff'),
+        url('Gibson-BookItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-SemiBold.eot');
+    src: url('Gibson-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-SemiBold.woff2') format('woff2'),
+        url('Gibson-SemiBold.woff') format('woff'),
+        url('Gibson-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Medium.eot');
+    src: url('Gibson-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Medium.woff2') format('woff2'),
+        url('Gibson-Medium.woff') format('woff'),
+        url('Gibson-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Thin.eot');
+    src: url('Gibson-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Thin.woff2') format('woff2'),
+        url('Gibson-Thin.woff') format('woff'),
+        url('Gibson-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+

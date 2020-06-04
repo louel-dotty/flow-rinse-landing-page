@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="13px" viewBox="0 0 12 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon / up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Booking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.2">
+        <g id="03---Booking" transform="translate(-1247.000000, -287.000000)" stroke="#FFFFFF">
+            <g id="Group" transform="translate(1247.500000, 287.302326)">
+                <g id="Icon-/-up" transform="translate(-0.000000, 0.000000)">
+                    <line x1="5.14285714" y1="12" x2="5.14285714" y2="0" id="Path-2"></line>
+                    <polyline id="Path-3" points="0 5.14285714 5.14285714 0 10.2857143 5.14285714"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

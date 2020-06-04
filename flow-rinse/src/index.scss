@@ -1,0 +1,125 @@
+@import "~bootstrap/scss/bootstrap";
+
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+@return #{$pixels/$context}em; 
+}
+
+@import "assets/scss/colors.scss";
+@import "assets/scss/fonts.scss";
+@import "assets/scss/button.scss";
+@import "assets/scss/form.scss";
+@import "assets/scss/table.scss";
+@import "assets/scss/profile.scss";
+
+
+//font
+$primary-font: $gotham;
+$secondary-font: $gibson;
+$proximanova: $proxima-nova;
+
+
+body {
+  margin: 0;
+  background-color: $black-2;
+  min-height: 100vh;
+  font-family: $primary-font !important;
+  color: #ffffff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:16px ;
+}
+
+* {
+  outline: none ;
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+
+#root{
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+//basic dom styles
+//width 400 for 14px
+.w-400{
+  width: 28.571em;
+}
+
+
+//font styles
+.text-1{
+  color: $white;
+  font-size: em(30);
+  font-family: $secondary-font; 
+  font-weight: 700;
+  letter-spacing:1px;
+  text-transform: uppercase; 
+}
+
+.text-2{
+  color: $primary-color;
+  font-size: em(30);
+  font-family: $secondary-font; 
+  font-weight: 700;
+  letter-spacing:1px;
+  text-transform: uppercase; 
+}
+
+.text-3{
+  font-family: $gotham;
+  font-weight: 400;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
+  font-size: em(20);
+  color: $white;
+}
+
+.text-4{
+  font-family: $proximanova;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  font-size: em(30);
+  color: $primary-color;
+}
+
+.text-5{
+  font-family: $proximanova;
+   font-weight: 400;
+   font-size: em(14);
+   text-decoration: underline;
+   opacity: .5;
+   color: #ffffff;
+}
+
+.text-6{
+  font-family: $primary-font;
+  font-size:em(14);
+  font-style: italic;
+  font-weight: 300;
+}
+.text-7{
+  font-family:$primary-font;
+  font-weight: bold;
+  font-size: em(16);
+}
+.text-8{
+  font-family:$secondary-font;
+  font-size:em(30);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+// .text-1{
+//   font-family: $secondary-font;
+//   font-weight: 400;
+//   font-size: em(120);
+// }

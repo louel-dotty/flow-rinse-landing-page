@@ -1,0 +1,42 @@
+
+.table-responsive{
+    min-height: em(350);
+}
+.table{
+    color: $white;
+    th,td{
+        padding: 1.250em;
+        text-align: left;
+    }
+    thead{
+        th{
+            border-bottom: none;
+        }
+    }
+    th{
+        font-family: $gibson;
+        font-size: em(16);
+        font-weight: 700;
+        border-color: rgba(151, 151, 151, 0.5);
+        &:first-child{
+            padding-left: 3.438em;
+        }
+        &:last-child{
+            text-align: right;
+        }
+    }
+
+    td{
+        font-family: $gotham;
+        font-size: em(16);
+        // font-weight: 400;
+        border-color: rgba(151, 151, 151, 0.5);
+        &:first-child{
+            padding-left: 3.438em;
+        }
+        &:last-child{
+            text-align: right;
+        }
+    }
+
+}

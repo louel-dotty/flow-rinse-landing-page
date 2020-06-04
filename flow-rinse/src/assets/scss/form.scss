@@ -1,0 +1,78 @@
+::placeholder{
+  color: #ffffff!important;
+  opacity: 1;
+}
+
+input, select{
+  font-size: em(14)!important;
+  height: 40px!important;
+  background-color: rgba(255,255,255,0.05)!important;
+  font-weight: 300!important;
+  color:#ffffff!important;
+}
+textarea{
+  font-size: em(14)!important;
+  min-height: em(150)!important;
+  background-color: rgba(255,255,255,0.05)!important;
+  font-weight: 300!important;
+  color:#ffffff!important;
+}
+.form-group{
+  margin-bottom:em(20);
+}
+.btn{
+font-size: em(14)!important;
+height:40px!important;
+}
+
+.option-bg{
+  background-color: #333;
+  font-weight:300;
+}
+
+td{
+  font-weight:300;
+}
+
+.form-control, input, text-area {
+  padding:0.375rem 20px;
+}
+
+select{
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+  background: url('../img/icon-dropdown.svg') no-repeat right #ddd;
+  background-position: right 20px bottom 16px;
+}
+
+.option-bg{
+    background-color: #333;
+    font-weight:300;
+}
+
+
+.date-dropdown{
+  width: 28.571em;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #ced4da;
+  -webkit-text-fill-color: $white;
+  -webkit-box-shadow: 0 0 0px 1000px #151515 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-button-wrapper{
+  img{
+    cursor: pointer;
+  }
+}

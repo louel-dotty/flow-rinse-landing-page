@@ -1,0 +1,34 @@
+button {
+    font-family: $gibson;
+    color: $white;
+}
+
+.btn-primary{
+    background-color: $primary-color;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    &:hover{
+        background-color: $primary-color;
+        border: none;
+    }
+}
+
+.btn-secondary{
+    background-color: $grey;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn-input-combine{
+    background-color: rgba(255,255,255,0.05);
+}
+
+.btn-rearange{
+    padding: 0 em(5);
+}
+
+.btn-remove{
+    padding-left: em(16);
+}
