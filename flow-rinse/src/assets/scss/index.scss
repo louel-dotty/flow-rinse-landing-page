@@ -79,3 +79,38 @@ html, body{
     }
 }
 
+
+
+
+
+
+// second section styles 
+.section-info{
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-size: cover;
+    position: relative;
+    height: 100vh;
+    margin-top: -290px;
+    .section-info-layer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        .column-info{
+            width: 50%;
+            height: 100%;
+        }
+    }
+    .section-info-layer-1{
+        z-index: 1;
+    }
+    .section-info-layer-2{
+        z-index: 2;
+        display: flex;
+        .column-info{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
