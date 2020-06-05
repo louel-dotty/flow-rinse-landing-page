@@ -32,7 +32,7 @@ function Index() {
             <img data-aos="fade-down" data-aos-duration="800" data-aos-delay="300" className="feature-img" src={featureImg} alt="Featured App"/>
             <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="500">
               <img data-aos="fade-down" data-aos-duration="800" data-aos-delay="600" className="logo-orange" src={logoOrange} alt="Orange Logo"/>
-              <p>Booking in a new way</p>
+              <p className="light">Booking in a new way</p>
               <div className="container-btn">
                 <Button className="btn-round" color="primary">
                   Download for Apple
@@ -134,7 +134,7 @@ function Index() {
         <div className="footer-container">
           <div className="container">
             <img data-aos="fade-down" className="logo-orange" src={logoOrange} alt="Orange Logo"/>
-            <p data-aos="fade-down" data-aos-duration="800">Booking in a new way</p>
+            <p className="light" data-aos="fade-down" data-aos-duration="800">Booking in a new way</p>
             <div className="container-btn" data-aos="fade-down" data-aos-duration="800" data-aos-delay="600">
               <Button className="btn-round" color="primary">
                 Download for Apple

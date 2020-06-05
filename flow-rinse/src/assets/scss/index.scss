@@ -11,6 +11,7 @@ html, body{
     box-sizing: border-box;
     font-size: em(16);
     font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 
 #root{
@@ -21,6 +22,11 @@ html, body{
 #content{
     height: 100%;
     background-color: #ffffff;
+}
+
+.light{
+    font-weight: 100;
+    color: #909090;
 }
 
 .feature-header{
