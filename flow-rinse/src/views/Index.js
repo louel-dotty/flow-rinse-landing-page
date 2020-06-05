@@ -57,7 +57,7 @@ function Index() {
         <div className="section-info-layer section-info-layer-1">
           <img src={HeaderBG}/>
         </div>
-        <div className="section-info-layer section-info-layer-2" data-aos="fade-left" data-aos-duration="800" data-aos-delay="500">
+        <div className="section-info-layer section-info-layer-2" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
           <div className="column-info"></div>
           <div className="column-info">
             <div className="content">
@@ -102,8 +102,8 @@ function Index() {
             </div>
           </div>
           <div className="column-info images">
-            <img src={img01} data-aos="fade-left" data-aos-duration="800" data-aos-delay="600"/>
-            <img src={img02} className="two" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"/>
+            <img src={img01} data-aos="fade-left" data-aos-duration="800" data-aos-delay="400"/>
+            <img src={img02} className="two" data-aos="fade-left" data-aos-duration="800" data-aos-delay="700"/>
           </div>
         </div>
       </div>
@@ -113,19 +113,19 @@ function Index() {
         <div className="section-info-layer section-info-layer-1">
           <img src={OrangeBG}/>
         </div>
-        <div className="section-info-layer section-info-layer-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="500">
+        <div className="section-info-layer section-info-layer-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="300">
           <div className="column-info">
             <div className="content">
               <h1>Services Covered</h1>
             </div>
           </div>
           <div className="column-info">
-            <img src={dentist} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="700"></img>
-            <img src={generalHealth} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="900"></img>
-            <img src={petGrooming} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1100"></img>
-            <img src={beauty} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1300"></img>
-            <img src={cleaning} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1500"></img>
-            <img src={dining} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1700"></img>
+            <img src={dentist} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="600"></img>
+            <img src={generalHealth} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="800"></img>
+            <img src={petGrooming} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1000"></img>
+            <img src={beauty} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1200"></img>
+            <img src={cleaning} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1400"></img>
+            <img src={dining} alt="Apple Logo" data-aos="fade-down" data-aos-duration="800" data-aos-delay="1600"></img>
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ function Index() {
                 <img src={android} alt="Android Logo"></img>
               </Button>
             </div>
-            <div className="social-container" data-aos="fade-down" data-aos-duration="800" data-aos-delay="800">
+            <div className="social-container" data-aos="fade-down" data-aos-duration="800" data-aos-delay="700">
               <a href="#"><img src={facebook} alt="Facebook Logo"></img></a>
               <a href="#"><img src={twitter} alt="Facebook Logo"></img></a>
               <a href="#"><img src={instagram} alt="Facebook Logo"></img></a>
