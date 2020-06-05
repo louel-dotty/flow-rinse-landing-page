@@ -235,7 +235,7 @@ html, body{
                 width: 50%;
                 height: 100%;
                 color: #757575;
-                padding: 0 em(50);
+                padding: 0 em(50) 0 em(150);
 
                 .content{
                     margin-top: em(300);
@@ -260,18 +260,19 @@ html, body{
                 }
 
                 &.images{
-                    margin-top: em(100);
+                    margin-top: em(150);
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    align-items: center;
+                    align-items: flex-start;
                 }
                 img{
-                    margin-top: em(50);
                     width: em(300);
                     height: auto;
+                    border-radius: em(40);
                     &.two{
-                        margin-left: em(200);
+                        margin-top: em(-50);
+                        margin-left: em(150);
                     }
                 }
 
